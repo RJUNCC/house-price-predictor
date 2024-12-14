@@ -4,3 +4,16 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+anyhow = "1.0.93"
+aws-config = "1.5.10"
+aws-sdk-s3 = "1.61.0"
+polars = { version = "0.37.0", features = ["csv", "ndarray"] }
+rand = "0.8.5"
+reqwest = { version = "0.12.9", features = ["blocking"] }
+xgboost = "0.1.4"
+tokio = { version = "1.0", features = ["full"] }
+actix-web = "4.9.0"
+log = "0.4"
+env_logger = "0.10"
+serde = { version = "1.0.215", features = ["derive"] }
+clap = { version = "4.5.21", features = ["derive"] }
